@@ -7,3 +7,6 @@ A protocol for drug virtual screening.
 ## How to prepare protein
 
 ## Hoo to prepare input files for glid
+
+
+# MMGBSA
