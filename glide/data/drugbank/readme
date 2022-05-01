@@ -1,0 +1,3 @@
+#Download drugbank library from website.
+unzip drugbank_all_3d_structures.sdf.zip
+babel 3D structures.sdf 
