@@ -11,7 +11,7 @@ bash run_process_drugbak.sh
 ## How to run molecular docking
 #By command
 ```
-${Schrodinger_HOME}/glide $1 -NJOBS 24 -HOST localhost:24
+${Schrodinger_HOME}/glide glide_docking.in -NJOBS 24 -HOST localhost:24
 ```
 Here we use 24 CPU cores to run 24 jobs for docking.
 #By UI of Schrödinger software
@@ -25,5 +25,8 @@ bash run_gromacs.sh
 This script contains energy minization, NVT and NPT steps. Modify the relevant parameters according to your needs
 
 # MMGBSA
-Run the bash script “bash mmpbsa_run.sh” to calculate binding affinity by MM-GBSA method. 
+Run the following script to calculate binding affinity by MM-GBSA method. 
+```
+bash mmpbsa_run.sh 
+```
 The last 100 ns trajectories were used for analysis.
