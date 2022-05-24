@@ -3,11 +3,10 @@ A protocol for high throughput screening of ACE2 enzymatic activators to treat C
 
 # Molecule docking
 ## How to prepare the input files  
-Run the bash script “bash run_process_drugbak.sh” to prepare the input files for docking.
-
-We recemmond use graphical user interface (UI) of Schrödinger software to pre-process protein.
-
-Prepare the receptor grid generation by using SiteMap tool in Schrödinger software.
+We recemmond use graphical user interface (UI) of Schrödinger software to pre-process protein, as well as prepare the receptor grid generation by using SiteMap tool. Run the following script to prepare the input files for docking.
+```
+bash run_process_drugbak.sh
+```
 
 ## How to run molecular docking
 #By command
