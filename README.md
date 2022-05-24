@@ -18,6 +18,13 @@ Here we use 24 CPU cores to run 24 jobs for docking.
 #By UI of Schrödinger software
 Just follow the manual of Schrödinger software.
 
+# Moecular dynamics
+When complex.gro file is generated, just run the following command:
+```
+bash run_gromacs.sh
+```
+This script contains energy minization, NVT and NPT steps. Modify the relevant parameters according to your needs
+
 # MMGBSA
 Run the bash script “bash mmpbsa_run.sh” to calculate binding affinity by MM-GBSA method. 
 The last 100 ns trajectories were used for analysis.
